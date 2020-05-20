@@ -6,6 +6,7 @@ Sample API demonstrating how to configure OAuth to authenticate against D365 por
 With the April 2019 release of D365 portal, there is a new way of authenticating to a `companion app`, check out the official documentation:
 
 [Use OAuth 2.0 implicit grant flow within your portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/oauth-implicit-grant-flow)
+[Usage and ARM template to set up CORS etc here](https://github.com/dylanhaskins/PowerPlatformCICD)
 
 ### Configuring OAuth in your application
 

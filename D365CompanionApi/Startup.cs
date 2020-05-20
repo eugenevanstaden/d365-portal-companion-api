@@ -28,7 +28,7 @@ namespace D365CompanionApi
             services.AddD365PortalAuthentication(
                 options => Configuration.Bind("D365Portal", options));
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
